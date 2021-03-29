@@ -175,3 +175,17 @@ p {
 	font-size: 2rem;
 	padding: 20px;
 }
+
+@media (max-width: 1000px) {
+
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+		width: 50%;
+	}
+
+}
